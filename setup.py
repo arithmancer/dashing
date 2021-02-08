@@ -19,7 +19,7 @@ Easily create dashboards""",
       url='https://github.com/FedericoCeratto/dashing',
       license='LGPL',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-      package_data={'dashing': ['py.typed', '__init__.pyi']},
+      package_data={'dashing': ['py.typed', 'dashing.pyi']},
       include_package_data=True,
       zip_safe=False,
       install_requires=[
